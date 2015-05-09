@@ -24,7 +24,6 @@ module Aura.Core where
 import Control.Monad    (when)
 import Data.Either      (partitionEithers)
 import Data.List        (isSuffixOf)
-import Data.Monoid      (Monoid(..))
 import System.Directory (doesFileExist)
 import Text.Regex.PCRE  ((=~))
 

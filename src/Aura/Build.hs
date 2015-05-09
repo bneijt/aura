@@ -27,7 +27,6 @@ module Aura.Build
 
 import System.FilePath ((</>))
 import Control.Monad   (when, void, join)
-import Control.Applicative ((<*>), pure)
 
 import Aura.Pacman (pacman)
 import Aura.Settings.Base

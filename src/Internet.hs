@@ -27,7 +27,6 @@ module Internet
 
 import qualified Data.ByteString.Lazy as L
 
-import Control.Applicative        ((<$>))
 import Control.Lens
 import Network.Wreq
 import System.FilePath            (splitFileName, (</>))

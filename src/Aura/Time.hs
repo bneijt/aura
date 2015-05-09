@@ -26,7 +26,6 @@ module Aura.Time
     , localTime
     , Time ) where
 
-import Control.Applicative ((<$>))
 import Text.Printf         (printf)
 import Data.List           (intercalate)
 import Data.Time hiding (months)
